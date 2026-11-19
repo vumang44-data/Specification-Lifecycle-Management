@@ -53,21 +53,43 @@ Estimate time spent in current stages and prioritize specifications using rule-b
 ### Management Action Queue
 Identify specifications requiring immediate operational attention.
 
+## Dashboard Screenshots
+
+### 1. Management Dashboard
+![Management Dashboard](screenshots/01-management-dashboard.png)
+
+### 2. SLA Monitoring
+![SLA Monitoring](screenshots/02-sla-monitoring.png)
+
+### 3. Workflow Bottleneck Analytics
+![Workflow Bottlenecks](screenshots/03-workflow-bottlenecks.png)
+
+### 4. Stage Aging and SLA Risk Scoring
+![Stage Aging and SLA Risk](screenshots/04-stage-aging-risk.png)
+
+### 5. Management Action Queue
+![Management Action Queue](screenshots/05-management-actions.png)
+
 ## Database Architecture
 
-The application uses three PostgreSQL tables:
+The PostgreSQL database contains five tables:
 
-- `specification_tracker`
-- `stage_history`
-- `sla_notifications`
+- `specification_tracker` — Specification lifecycle records
+- `stage_history` — Stage transition audit trail
+- `sla_notifications` — SLA alerts and notification status
+- `employee_master` — Employee reference information
+- `data_dictionary` — Database metadata
 
-## Local Setup
+Database schema: `sql/schema.sql`
 
-1. Install dependencies using `pip install -r requirements.txt`.
-2. Configure a PostgreSQL database named `specification_lifecycle_db`.
-3. Create the required tables and load synthetic data.
-4. Set the `SPEC_DB_PASSWORD` environment variable.
-5. Launch the application using `streamlit run app.py`.
+Synthetic sample data: `data/sample_specifications.csv`
+
+The database schema is available in `sql/schema.sql`.
+A sample of 20 synthetic specification records is included in
+`data/sample_specifications.csv`.
+
+The sample CSV is provided for demonstration and is not a
+complete database initialization script.
 
 Database setup scripts will be added separately.
 
