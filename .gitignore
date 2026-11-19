@@ -8,3 +8,7 @@ __pycache__/
 .venv/
 venv/
 .DS_Store
+
+# Ignore original screenshot files
+*.tiff
+*.tif
