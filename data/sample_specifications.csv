@@ -1,0 +1,21 @@
+specification_id,specification_name,specification_type,assigned_to_id,assigned_to,department,assigned_date,due_date,current_stage,sme,hold_reason,sla_days,completion_date,priority,record_status
+SPEC-0001,Material Standard - 001,Quality Standard,E002,Diya Shah,Quality,2026-10-23,2026-12-15,DCMA Approval,SME Foxtrot,,53,,Medium,Open
+SPEC-0002,Process Specification - 002,Quality Standard,E001,Aarav Mehta,Engineering,2026-10-22,2026-11-23,Hold,SME Alpha,,32,,Medium,Open
+SPEC-0003,Design Requirement - 003,Process Specification,E004,Anaya Iyer,Compliance,2026-07-07,2026-08-24,Published,SME Bravo,,48,2026-11-19,High,Open
+SPEC-0004,Material Standard - 004,Inspection Procedure,E006,Sara Khan,Engineering,2026-10-03,2026-11-04,GSA Approval,SME Charlie,,32,,Low,Open
+SPEC-0005,Material Standard - 005,Material Standard,E002,Diya Shah,Quality,2026-07-25,2026-08-26,FAA Approval,SME Echo,,32,,Low,Open
+SPEC-0006,Design Requirement - 006,Design Requirement,E004,Anaya Iyer,Compliance,2026-08-16,2026-09-17,Published,SME Alpha,,32,2026-10-25,High,Completed
+SPEC-0007,Quality Standard - 007,Process Specification,E005,Vihaan Rao,Quality,2026-10-11,2026-11-29,DCMA Approval,SME Bravo,,49,,Low,Open
+SPEC-0008,Process Specification - 008,Inspection Procedure,E006,Sara Khan,Engineering,2026-10-15,2026-11-21,Published,SME Delta,,37,2026-11-12,Medium,Completed
+SPEC-0009,Quality Standard - 009,Inspection Procedure,E008,Ishita Das,Engineering,2026-09-23,2026-10-31,Ballot,SME Echo,,38,,Low,Open
+SPEC-0010,Process Specification - 010,Inspection Procedure,E007,Arjun Patel,Compliance,2026-07-29,2026-09-04,Published,SME Echo,,37,2026-08-21,Low,Completed
+SPEC-0011,Design Requirement - 011,Design Requirement,E002,Diya Shah,Quality,2026-07-23,2026-09-03,DCMA Approval,SME Charlie,,42,,High,Open
+SPEC-0012,Quality Standard - 012,Material Standard,E005,Vihaan Rao,Quality,2026-07-10,2026-08-14,FAA Approval,SME Foxtrot,,35,,Low,Open
+SPEC-0013,Quality Standard - 013,Material Standard,E005,Vihaan Rao,Quality,2026-06-22,2026-08-10,Ballot,SME Bravo,,49,,Low,Open
+SPEC-0014,Material Standard - 014,Process Specification,E006,Sara Khan,Engineering,2026-06-26,2026-07-26,Ballot,SME Charlie,,30,,Low,Open
+SPEC-0015,Process Specification - 015,Design Requirement,E002,Diya Shah,Quality,2026-10-08,2026-11-30,Hold,SME Bravo,Resource availability,53,,Low,Open
+SPEC-0016,Inspection Procedure - 016,Quality Standard,E007,Arjun Patel,Compliance,2026-09-05,2026-11-03,FAA Approval,SME Bravo,,59,,Medium,Open
+SPEC-0017,Process Specification - 017,Material Standard,E002,Diya Shah,Quality,2026-08-27,2026-10-03,Hold,SME Bravo,Resource availability,37,,High,Open
+SPEC-0018,Process Specification - 018,Quality Standard,E001,Aarav Mehta,Engineering,2026-09-01,2026-10-03,Published,SME Charlie,,32,2026-11-10,High,Completed
+SPEC-0019,Inspection Procedure - 019,Inspection Procedure,E008,Ishita Das,Engineering,2026-08-28,2026-10-22,FAA Approval,SME Alpha,,55,,Medium,Open
+SPEC-0020,Process Specification - 020,Quality Standard,E001,Aarav Mehta,Engineering,2026-10-04,2026-11-04,GSA Approval,SME Alpha,,31,,Medium,Open
