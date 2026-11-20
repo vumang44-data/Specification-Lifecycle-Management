@@ -18,3 +18,4 @@ app_backup*.py
 app_old.py
 old.py
 app_code.zip
+schema_review.sql
