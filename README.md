@@ -105,7 +105,45 @@ Enter the local PostgreSQL password when prompted by `read -s`. The current appl
 
 ## Reproducibility and planned improvements
 
-This repository package contains the dashboard code, dependencies, and documentation. To make the project fully reproducible on a fresh machine, add a **sanitized schema migration** (`schema.sql`) and a **synthetic-only data seed script**. Verify the schema against your existing PostgreSQL database before publishing either. Do not upload a database dump containing private data.
+## Reproducible Database Setup
+
+The repository includes `schema.sql`, `seed_data.py`, and `app.py` to reproduce the dashboard using synthetic data.
+
+### 1. Create a PostgreSQL database
+
+```bash
+createdb -h 127.0.0.1 -U postgres specification_lifecycle_demo
+```
+
+### 2. Create the tables
+
+```bash
+psql -h 127.0.0.1 -U postgres -d specification_lifecycle_demo -v ON_ERROR_STOP=1 -f schema.sql
+```
+
+### 3. Configure credentials (macOS / zsh)
+
+```bash
+export SPEC_DB_NAME=specification_lifecycle_demo
+read -s SPEC_DB_PASSWORD
+export SPEC_DB_PASSWORD
+```
+
+### 4. Generate synthetic records
+
+```bash
+python3 seed_data.py
+```
+
+Follow the confirmation prompt. Use a fresh database to avoid changing existing records.
+
+### 5. Run the dashboard
+
+```bash
+streamlit run app.py
+```
+
+The project uses synthetic engineering workflow data and does not contain proprietary client information.
 
 ## Testing
 
