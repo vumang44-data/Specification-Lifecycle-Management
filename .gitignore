@@ -12,3 +12,9 @@ venv/
 # Ignore original screenshot files
 *.tiff
 *.tif
+
+# Local development backups
+app_backup*.py
+app_old.py
+old.py
+app_code.zip
