@@ -24,11 +24,39 @@ This project answers:
 | **Specification Management** | Search/filter records, update approval stages, inspect change history |
 | **SLA & Risk Monitoring** | Explainable risk scores, recommended actions, CSV export, SLA alerts and read/unread tracking |
 
-Add screenshots of your tested dashboard to `screenshots/` and uncomment these lines:
-
 ![Executive Overview](screenshots/executive_overview.png)
 ![Specification Management](screenshots/specification_management.png)
 ![SLA & Risk Monitoring](screenshots/sla_risk_monitoring.png)
+
+## Sample Analytical Findings
+
+The following findings come from an earlier snapshot of the synthetic test dataset.
+
+| Metric | Value |
+| --- | ---: |
+| Total specifications | 100 |
+| Active specifications | 71 |
+| Overdue active specifications | 60 |
+| Critical-risk specifications | 61 |
+| Completed specifications | 29 |
+| Completed on-time rate | 51.7% |
+
+### Business Insights
+
+**1. SLA exposure:** 60 of 71 active specifications (84.5%) were overdue in the observed synthetic dataset.
+
+**2. Approval bottlenecks:** FAA Approval and GSA Approval each had 15 overdue specifications, making them the largest overdue backlogs.
+
+**3. Risk prioritization:** 61 active specifications were classified as Critical using rule-based scoring.
+
+### Recommended Actions
+
+- Prioritize high-risk and overdue specifications.
+- Review approval bottlenecks with responsible stakeholders.
+- Escalate unresolved Hold-stage blockers.
+- Track overdue backlogs and risk distribution during management reviews.
+
+*These findings illustrate synthetic operational scenarios, not actual business performance. Values may differ after test database updates.*
 
 ## Technology
 
