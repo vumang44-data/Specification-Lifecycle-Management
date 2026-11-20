@@ -26,9 +26,9 @@ This project answers:
 
 Add screenshots of your tested dashboard to `screenshots/` and uncomment these lines:
 
-<!-- ![Executive Overview](screenshots/executive_overview.png) -->
-<!-- ![Specification Management](screenshots/specification_management.png) -->
-<!-- ![SLA & Risk Monitoring](screenshots/sla_risk_monitoring.png) -->
+![Executive Overview](screenshots/executive_overview.png)
+![Specification Management](screenshots/specification_management.png)
+![SLA & Risk Monitoring](screenshots/sla_risk_monitoring.png)
 
 ## Technology
 
